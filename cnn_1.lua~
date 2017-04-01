@@ -52,8 +52,8 @@ end
 
 X = torch.DoubleTensor(train_set.data)
 Y = torch.DoubleTensor(train_set.label)
-X = X[{{1, 1}}]
-Y = Y[{{1, 1}}]
+--X = X[{{1, 1}}]
+--Y = Y[{{1, 1}}]
 --X = train_set.data
 --Y = train_set.label
 
